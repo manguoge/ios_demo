@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *firstName;
 @property (nonatomic, strong) NSString *lastName;
 
+//容器属性
+@property (nonatomic, strong) NSMutableArray *friends;
+
 @end
 
 NS_ASSUME_NONNULL_END
